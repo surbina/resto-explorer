@@ -63,7 +63,7 @@ interface HeaderProps {
 function Header({ name, rating, category, price, isClosed }: HeaderProps) {
   return (
     <HeaderWrapper>
-      <Name data-testid="restaurant-detail-name">{name}1</Name>
+      <Name data-testid="restaurant-detail-name">{name}</Name>
       <Stars rating={rating} starHeight={30} starWidth={30} />
       <Category>
         {category} &#xB7; {price}

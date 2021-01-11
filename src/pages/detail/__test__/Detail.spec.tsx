@@ -33,6 +33,6 @@ describe('Detail Page', () => {
       apiMocks,
     });
 
-    await waitFor(() => expect(getByText('Carson Kitchen2')).toBeTruthy());
+    await waitFor(() => expect(getByText('Carson Kitchen')).toBeTruthy());
   });
 });
