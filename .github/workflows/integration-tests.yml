@@ -1,6 +1,6 @@
 name: Integration Tests
 
-on: [deployment_status]
+on: deployment_status
 
 jobs:
   e2e:
